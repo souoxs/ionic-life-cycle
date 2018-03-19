@@ -8,4 +8,4 @@ Run `ionic serve` for a dev server. Navigate to `http://localhost:8100/`. The ap
 
 ## Further help
 
-To get more help on the Ionic CLI use `ionic help` or go check out the [Inoic Docs](https://ionicframework.com/docs/).
+To get more help on the Ionic CLI use `ionic help` or go check out the [Ionic Docs](https://ionicframework.com/docs/).
