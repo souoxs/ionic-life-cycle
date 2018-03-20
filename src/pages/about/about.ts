@@ -13,6 +13,40 @@ export class AboutPage {
 
   }
 
+  ionViewCanEnter() {
+    console.log('About Page - ionViewCanEnter');
+    return true;
+  }
+
+  ionViewWillEnter() {
+    console.log('About Page - ionViewWillEnter');
+  }
+
+  ionViewDidLoad() {
+    console.log('About Page - ionViewDidLoad');
+  }
+
+  ionViewDidEnter() {
+    console.log('About Page - ionViewDidEnter');
+  }
+
+  ionViewCanLeave() {
+    console.log('About Page - ionViewCanLeave');
+    return true;
+  }
+
+  ionViewWillLeave() {
+    console.log('About Page - ionViewWillLeave');
+  }
+
+  ionViewDidLeave() {
+    console.log('About Page - ionViewDidLeave');
+  }
+
+  ionViewWillUnload() {
+    console.log('About Page - ionViewWillUnload');
+  }
+
   goPage(url) {
     if (url === 'home') {
       this.navCtrl.push(HomePage);

@@ -13,9 +13,40 @@ export class ContactPage {
 
   }
 
-  canGoBack() {
-    return false;
+  ionViewCanEnter() {
+    console.log('Contact Page - ionViewCanEnter');
+    return true;
   }
+
+  ionViewWillEnter() {
+    console.log('Contact Page - ionViewWillEnter');
+  }
+
+  ionViewDidLoad() {
+    console.log('Contact Page - ionViewDidLoad');
+  }
+
+  ionViewDidEnter() {
+    console.log('Contact Page - ionViewDidEnter');
+  }
+
+  ionViewCanLeave() {
+    console.log('Contact Page - ionViewCanLeave');
+    return true;
+  }
+
+  ionViewWillLeave() {
+    console.log('Contact Page - ionViewWillLeave');
+  }
+
+  ionViewDidLeave() {
+    console.log('Contact Page - ionViewDidLeave');
+  }
+
+  ionViewWillUnload() {
+    console.log('Contact Page - ionViewWillUnload');
+  }
+
 
   goPage(url) {
     if (url === 'home') {
