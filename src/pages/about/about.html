@@ -6,6 +6,20 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-
+<ion-content>
+  
+  <ion-card>
+    <ion-card-header>
+        Welcome to About Page!
+    </ion-card-header>
+    <ion-card-content>
+        Now you can see, this is About Page!
+      </ion-card-content>
+  </ion-card>
+  
+  
+  <div style="padding: 6px 12px">
+    <button ion-button style="margin: 2px; font-size: 13px" (click)="goPage('home')">Go To Home Page</button>
+    <button ion-button style="margin: 2px; margin-left: 12px; font-size: 13px" (click)="goPage('contact')">Go To Contact Page</button>
+  </div>
 </ion-content>
