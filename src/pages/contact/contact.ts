@@ -13,6 +13,10 @@ export class ContactPage {
 
   }
 
+  canGoBack() {
+    return false;
+  }
+
   goPage(url) {
     if (url === 'home') {
       this.navCtrl.push(HomePage);
